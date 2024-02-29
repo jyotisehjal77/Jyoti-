@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Hub - Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Same header content as the home page -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Job Hub Logo">
+            <h1>JOBHUB</h1>
+        </div>
+         <div class="header-right">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search for jobs">
+				<a href="jobsearch.html"> <button type="button" class="searchButton">Search</button></a>
+				 <a href="contactus.html"> <button type="button" class="contactButton">Contact Us</button> </a>	
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="signup">Sign Up</a>
+    </nav>
+
+    <main>
+	<div class="signup-h2" >
+	<h2>Sign-up Form</h2>
+	</div>
+        <section class="signup-section">
+            <!-- Heading and signup form -->
+			
+            <div class="signup-content">
+                <h3>Create a New Account or Login</h3>
+                <form class="signup-form" action="#" method="post">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Log-in</button>
+					<br>
+                   <p> or</p><br>
+				  <a href="#"> <p>Sign Up<p></a>
+                </form>
+            </div>
+            <!-- Image on the side -->
+			<div class="signup-image">
+      <img src="images/signup.jpg" alt="Signup Image">
+</div>
+        </section>
+    </main>
+
+   <div style="text-align: center; background-color:lightblue;">
+    <a href="#"> Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Help Centre</a>
+		<p> &copy; 2024 JobHub. All rights reserved.</p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
